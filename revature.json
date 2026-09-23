@@ -1,0 +1,15 @@
+{
+  "type": "java",
+  "testFiles": [
+    {
+      "path": "src/test/java/ClassTest.java",
+      "testCases": [
+        {
+          "methodName": "classTest1",
+          "label": "updates class-level variable via method",
+          "description": "Verifies that changeClassVar correctly updates the static global_var field from its previous value to the provided input value."
+        }
+      ]
+    }
+  ]
+}
